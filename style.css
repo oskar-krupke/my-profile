@@ -52,22 +52,41 @@ p{
 width: 100px;
 margin: 20px auto;
 }
+
+#intro{
+	margin-bottom: 40px;
+}
+.socialmedia-font{
+	font size: 60px;
+}
+.list-horizontal{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-horizontal li{
+	display: inline;
+	padding: 10px;
+	font-size: 50px;
+}
+.list-horizontal i:hover{
+	color: #3C3744;
+}
+
 @media (max-width: 960px){
 	.box-centered{
 	width: 700px;    
 	
+}
 }
 @media (max-width: 720px){
 	.box-centered{
 	width: 525px;    
 	
 } 
+}
 @media (max-width: 540px){
 	.box-centered{
 	width: 394px;    
 	
 } 
-}
-#intro{
-	margin-bottom: 40px;
 }
